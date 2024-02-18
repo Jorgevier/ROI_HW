@@ -13,6 +13,6 @@ class Property:
     def roi(self):
         # roi = (yearlyCashFlow / investment) * 100
         return (self.yearlyCashFlow() / self.investment()) * 100
-
+# Usage example
 property1 = Property()
 print(f"Your rate of investment is {property1.roi()}%")
